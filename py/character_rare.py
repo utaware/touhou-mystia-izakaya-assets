@@ -39,8 +39,6 @@ def generator_char_ra_json(
 
   df.drop(columns=['序号', '图鉴'], inplace=True)
 
-  df.drop(index=0, inplace=True)
-
   df.dropna(subset=['人物'], inplace=True)
 
   reset_empty_columns(df)

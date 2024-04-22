@@ -25,7 +25,7 @@ method_config_map = {
   'ingredients': {
     'name': '食材',
     'handler': generator_ingredients_json,
-    'enabled': True
+    'enabled': False
   },
   'character_normal': {
     'name': '普客',
@@ -35,7 +35,7 @@ method_config_map = {
   'character_rare': {
     'name': '稀客',
     'handler': generator_char_ra_json,
-    'enabled': False
+    'enabled': True
   }
 }
 
