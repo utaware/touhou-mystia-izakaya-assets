@@ -1,0 +1,25 @@
+{
+  "name": "touhou-mystia-izakaya-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rename": "node js/rename-assets.js",
+    "sprite": "node js/generator-sprite.js",
+    "json": "node js/json-transform.js",
+    "py-xlsx": "python py/main.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "lodash": "^4.17.21",
+    "pinyin-pro": "^3.20.2",
+    "sharp": "^0.33.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.9"
+  }
+}

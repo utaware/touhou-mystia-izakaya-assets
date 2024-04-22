@@ -1,0 +1,16 @@
+.character-special {
+  background-image: url('../../sprite/character-special-sprite.jpeg');
+  background-repeat: no-repeat;
+}
+
+.bengbengtiaotiaodesanyaojing {
+  background-position: -0px -0px;
+  width: 138px;
+  height: 138px;
+}
+
+.mengchengguo {
+  background-position: -138px -0px;
+  width: 138px;
+  height: 138px;
+}

@@ -1,0 +1,388 @@
+.character-rare {
+  background-image: url('../../sprite/character-rare-sprite.jpeg');
+  background-repeat: no-repeat;
+}
+
+.ailian {
+  background-position: -0px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.ailisi {
+  background-position: -184px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.baitianaqiu {
+  background-position: -368px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.bayiyonglin {
+  background-position: -552px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.bayunzi {
+  background-position: -736px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.binamingjutianzi {
+  background-position: -920px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.bolilingmeng {
+  background-position: -1104px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.cheng {
+  background-position: -1288px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.cimuhuashan {
+  background-position: -1472px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.cunshashuimi {
+  background-position: -1656px -0px;
+  width: 184px;
+  height: 184px;
+}
+
+.dongfengguzaomiao {
+  background-position: -0px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.duoduoliangxiaosan {
+  background-position: -184px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.eryantuancang {
+  background-position: -368px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.fengjianyouxiang {
+  background-position: -552px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.fengshouye {
+  background-position: -736px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.fulanduolu {
+  background-position: -920px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.gongchukouruiling {
+  background-position: -1104px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.guirenzhengxie {
+  background-position: -1288px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.gumingdijue {
+  background-position: -1472px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.gumingdilian {
+  background-position: -1656px -184px;
+  width: 184px;
+  height: 184px;
+}
+
+.hechenghequ {
+  background-position: -0px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.heigushannv {
+  background-position: -184px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.hongmeiling {
+  background-position: -368px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.hunpoyaomeng {
+  background-position: -552px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.huoqinge {
+  background-position: -736px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.huoyanmaolin {
+  background-position: -920px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.jinquanyinglang {
+  background-position: -1104px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.leimiliya {
+  background-position: -1288px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.ligelu {
+  background-position: -1472px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.likongxi {
+  background-position: -1656px -368px;
+  width: 184px;
+  height: 184px;
+}
+
+.lingwulukong {
+  background-position: -0px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.lingxian2 {
+  background-position: -184px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.lumiya {
+  background-position: -368px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.luyizi {
+  background-position: -552px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.meidixin {
+  background-position: -736px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.meimo {
+  background-position: -920px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.mianyuefengji {
+  background-position: -1104px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.mianyueyiji {
+  background-position: -1288px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.moduoluoyinqinai {
+  background-position: -1472px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.paqiuli {
+  background-position: -1656px -552px;
+  width: 184px;
+  height: 184px;
+}
+
+.penglaishanhuiye {
+  background-position: -0px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.qilunuo {
+  background-position: -184px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.quanzouhua {
+  background-position: -368px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.ruoluji {
+  background-position: -552px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.senjinlinzhizhu {
+  background-position: -736px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.shangbaizehuiyin {
+  background-position: -920px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.shaomingzhenmiaowan {
+  background-position: -1104px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.shemingwanwen {
+  background-position: -1288px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.shenqi {
+  background-position: -1472px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.shitiansichengmei {
+  background-position: -1656px -736px;
+  width: 184px;
+  height: 184px;
+}
+
+.shiyanyou {
+  background-position: -0px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.shuiqiaopaluxi {
+  background-position: -184px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.sijiyingji {
+  background-position: -368px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.suwotuzigu {
+  background-position: -552px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.taotieyoumo {
+  background-position: -736px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.tengyuanmeihong {
+  background-position: -920px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.wububudou {
+  background-position: -1104px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.wuyumolisha {
+  background-position: -1288px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.xingxiongyongyi {
+  background-position: -1472px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.xishentannv {
+  background-position: -1656px -920px;
+  width: 184px;
+  height: 184px;
+}
+
+.xixingsiyouyouzi {
+  background-position: -0px -1104px;
+  width: 184px;
+  height: 184px;
+}
+
+.yayuelin {
+  background-position: -184px -1104px;
+  width: 184px;
+  height: 184px;
+}
+
+.yichuicuixiang {
+  background-position: -368px -1104px;
+  width: 184px;
+  height: 184px;
+}
+
+.yinfandi {
+  background-position: -552px -1104px;
+  width: 184px;
+  height: 184px;
+}

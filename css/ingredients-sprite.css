@@ -1,0 +1,358 @@
+.ingredients {
+  background-image: url('../../sprite/ingredients-sprite.jpeg');
+  background-repeat: no-repeat;
+}
+
+.baiguo {
+  background-position: -0px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.bamuman {
+  background-position: -84px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.banli {
+  background-position: -168px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.bili {
+  background-position: -252px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.bingdilian {
+  background-position: -336px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.bingkuai {
+  background-position: -420px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.chantui {
+  background-position: -504px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.digua {
+  background-position: -588px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.doufu {
+  background-position: -672px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.fengmi {
+  background-position: -756px -0px;
+  width: 84px;
+  height: 84px;
+}
+
+.haidan {
+  background-position: -0px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.haitai {
+  background-position: -84px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.heimaozhurou {
+  background-position: -168px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.heiyan {
+  background-position: -252px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.heniu {
+  background-position: -336px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.hetun {
+  background-position: -420px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.hongdou {
+  background-position: -504px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.huanggua {
+  background-position: -588px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.huangyou {
+  background-position: -672px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.huantanhua {
+  background-position: -756px -84px;
+  width: 84px;
+  height: 84px;
+}
+
+.jidan {
+  background-position: -0px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.jinqiangyu {
+  background-position: -84px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.jishangjinqiangyu {
+  background-position: -168px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.kekedou {
+  background-position: -252px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.lajiao {
+  background-position: -336px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.lianzi {
+  background-position: -420px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.luobu {
+  background-position: -504px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.lurou {
+  background-position: -588px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.lushui {
+  background-position: -672px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.meizi {
+  background-position: -756px -168px;
+  width: 84px;
+  height: 84px;
+}
+
+.mianfen {
+  background-position: -0px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.mogu {
+  background-position: -84px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.naiyou {
+  background-position: -168px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.nangua {
+  background-position: -252px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.ningmeng {
+  background-position: -336px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.niurou {
+  background-position: -420px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.nuomi {
+  background-position: -504px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.pangxie {
+  background-position: -588px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.putao {
+  background-position: -672px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.sanwenyu {
+  background-position: -756px -252px;
+  width: 84px;
+  height: 84px;
+}
+
+.songlu {
+  background-position: -0px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.songzi {
+  background-position: -84px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.taozi {
+  background-position: -168px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.tudou {
+  background-position: -252px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.xia {
+  background-position: -336px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.xiangchun {
+  background-position: -420px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.xianhua {
+  background-position: -504px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.xihongshi {
+  background-position: -588px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.xilanhua {
+  background-position: -672px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.yangcong {
+  background-position: -756px -336px;
+  width: 84px;
+  height: 84px;
+}
+
+.yezhurou {
+  background-position: -0px -420px;
+  width: 84px;
+  height: 84px;
+}
+
+.yiner {
+  background-position: -84px -420px;
+  width: 84px;
+  height: 84px;
+}
+
+.yueguangcao {
+  background-position: -168px -420px;
+  width: 84px;
+  height: 84px;
+}
+
+.zhangyu {
+  background-position: -252px -420px;
+  width: 84px;
+  height: 84px;
+}
+
+.zhishi {
+  background-position: -336px -420px;
+  width: 84px;
+  height: 84px;
+}
+
+.zhurou {
+  background-position: -420px -420px;
+  width: 84px;
+  height: 84px;
+}
+
+.zhusun {
+  background-position: -504px -420px;
+  width: 84px;
+  height: 84px;
+}
+
+.zhuzi {
+  background-position: -588px -420px;
+  width: 84px;
+  height: 84px;
+}
+
+.zunyu {
+  background-position: -672px -420px;
+  width: 84px;
+  height: 84px;
+}
