@@ -1,988 +1,662 @@
-.recipes {
-  background-image: url('../../sprite/recipes-sprite.jpeg');
+.recipes-sprite-item {
+  background-image: url('@/assets/sprite/recipes-sprite.jpeg');
   background-repeat: no-repeat;
+  width: 88px;
+  height: 84px;
 }
 
 .baiguoluobupaigutang {
   background-position: -0px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .bailuzhensong {
   background-position: -88px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .baitaoshengbaqiao {
   background-position: -176px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .baixue {
   background-position: -264px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .bannidikedan {
   background-position: -352px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .basidigua {
   background-position: -440px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .beijitianxiamitaosela {
   background-position: -528px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .bisikaiwanbinggan {
   background-position: -616px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .businiao {
   background-position: -704px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .changfagongzhu {
   background-position: -792px -0px;
-  width: 88px;
-  height: 84px;
 }
 
 .chaorousi {
   background-position: -0px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .choudoufu {
   background-position: -88px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .cishenpinpan {
   background-position: -176px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .cuixuanfeng {
   background-position: -264px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .cuizhuyingchun {
   background-position: -352px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .dabanshao {
   background-position: -440px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .dajianghuchuanji {
   background-position: -528px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .dasheyan {
   background-position: -616px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .diyujixinjinggao！ {
   background-position: -704px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .doufuguo {
   background-position: -792px -84px;
-  width: 88px;
-  height: 84px;
 }
 
 .doufuweiceng {
   background-position: -0px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .doujiazhenggao {
   background-position: -88px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .duzhanghuayuan {
   background-position: -176px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .ertianyiliu {
   background-position: -264px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .fantuan {
   background-position: -352px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .fengmaozichahui {
   background-position: -440px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .fenzidan {
   background-position: -528px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .haidancishen {
   background-position: -616px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .haidanxinxuanbing {
   background-position: -704px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .haidanzhengdan {
   background-position: -792px -168px;
-  width: 88px;
-  height: 84px;
 }
 
 .haidaoxunrou {
   background-position: -0px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .haixianweicengtang {
   background-position: -88px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .hangongcangjiao {
   background-position: -176px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .hehuayumizhan {
   background-position: -264px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .heianwuzhi {
   background-position: -352px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .hetangyuese {
   background-position: -440px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .hongdoudafu {
   background-position: -528px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .hongshaomanyu {
   background-position: -616px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .huaguangyujianbao {
   background-position: -704px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .huangjinsuyubing {
   background-position: -792px -252px;
-  width: 88px;
-  height: 84px;
 }
 
 .huangyouniupai {
   background-position: -0px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .huaniaofengyue {
   background-position: -88px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .huantanhuagao {
   background-position: -176px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .huanxiangfengmi {
   background-position: -264px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .huanxiangfotiaoqiang {
   background-position: -352px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .huanxiangxinglianchuan {
   background-position: -440px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .huilingdunniupai {
   background-position: -528px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .hulatang {
   background-position: -616px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .huoxing {
   background-position: -704px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .jingxia！damaoxian {
   background-position: -792px -336px;
-  width: 88px;
-  height: 84px;
 }
 
 .juejiaoguandongzhu {
   background-position: -0px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .jurenyuzishao {
   background-position: -88px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .kaobamuman {
   background-position: -176px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .kaodigua {
   background-position: -264px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .kaomogu {
   background-position: -352px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .lengdoufu {
   background-position: -440px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .liangcaidiaohua {
   background-position: -528px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .liliangtang {
   background-position: -616px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .liushuisumian {
   background-position: -704px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .longyintaozi {
   background-position: -792px -420px;
-  width: 88px;
-  height: 84px;
 }
 
 .luohanshangsu {
   background-position: -0px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .lushuizhudan {
   background-position: -88px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .lvyexiangu {
   background-position: -176px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .manyunendanjing {
   background-position: -264px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .maofan {
   background-position: -352px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .maomikeluli {
   background-position: -440px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .maomipisa {
   background-position: -528px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .maomixishui {
   background-position: -616px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .maoyurongyandoufu {
   background-position: -704px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .maoyusansebingjiling {
   background-position: -792px -504px;
-  width: 88px;
-  height: 84px;
 }
 
 .mapodoufu {
   background-position: -0px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .mashu {
   background-position: -88px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .meizichapaofan {
   background-position: -176px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .mijianlizi {
   background-position: -264px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .mitaohongshaorou {
   background-position: -352px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .mizhichashao {
   background-position: -440px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .mizhixianjunbao {
   background-position: -528px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .mizhixiaoyugan {
   background-position: -616px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .moguroupian {
   background-position: -704px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .monvdewutahui {
   background-position: -792px -588px;
-  width: 88px;
-  height: 84px;
 }
 
 .naixiangmogutang {
   background-position: -0px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .naiyouduncai {
   background-position: -88px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .naiyoujuxie {
   background-position: -176px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .nanguaxiazhong {
   background-position: -264px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .nengliangchuan {
   background-position: -352px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .nikaoziyu {
   background-position: -440px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .niurougaijiaofan {
   background-position: -528px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .niurouyuanyanghuoguo {
   background-position: -616px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .nizhuantiandi！ {
   background-position: -704px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .penglaiyuzhi {
   background-position: -792px -672px;
-  width: 88px;
-  height: 84px;
 }
 
 .putongxiaodangao {
   background-position: -0px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .qiseyanggeng {
   background-position: -88px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .quanroushengyan {
   background-position: -176px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .ranjinbuding {
   background-position: -264px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .resongbing {
   background-position: -352px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .saixiongzhang {
   background-position: -440px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .sangqizhishitiao {
   background-position: -528px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .sanwenyutianfuluo {
   background-position: -616px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .shengbailianzigao {
   background-position: -704px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .shengmingzhiyuan {
   background-position: -792px -756px;
-  width: 88px;
-  height: 84px;
 }
 
 .shenjintianfuluo {
   background-position: -0px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .shiguozhusundunrou {
   background-position: -88px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .shiliyinxing {
   background-position: -176px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .shizitou {
   background-position: -264px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .shoumatuanzi {
   background-position: -352px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .shouwoshousi {
   background-position: -440px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .shucaizhuanji {
   background-position: -528px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .shuijiao {
   background-position: -616px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .shuizhuyu {
   background-position: -704px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .sikangbing {
   background-position: -792px -840px;
-  width: 88px;
-  height: 84px;
 }
 
 .songzigao {
   background-position: -0px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .taijibaguayudu {
   background-position: -88px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .tangyuan {
   background-position: -176px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .taohuageng {
   background-position: -264px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .taohualiulijuan {
   background-position: -352px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .tianshibanlimengu {
   background-position: -440px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .tishenbuding {
   background-position: -528px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .tongluoshao {
   background-position: -616px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .tudoukelebing {
   background-position: -704px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .tungulamian {
   background-position: -792px -924px;
-  width: 88px;
-  height: 84px;
 }
 
 .wennuanfantuan {
   background-position: -0px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .wuyishiyaoguaimusi {
   background-position: -88px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .xiangchunjianbing {
   background-position: -176px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .xiangjiansanwenyu {
   background-position: -264px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .xiangjianshuangguroujuan {
   background-position: -352px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .xiangzhachantui {
   background-position: -440px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .xiaoxiaodetianmi「duyao」 {
   background-position: -528px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .xinghongemodangao {
   background-position: -616px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .yangwangtianhuabanpai {
   background-position: -704px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .yangxinzhou {
   background-position: -792px -1008px;
-  width: 88px;
-  height: 84px;
 }
 
 .yanhuanggua {
   background-position: -0px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .yanjiang {
   background-position: -88px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .yeweijianong {
   background-position: -176px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .yiji☆bisha {
   background-position: -264px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .yinghuabuding {
   background-position: -352px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .yingluoxue {
   background-position: -440px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .yinyushuiguopai {
   background-position: -528px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .yishihuifan {
   background-position: -616px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .youdoufu {
   background-position: -704px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .youmeng {
   background-position: -792px -1092px;
-  width: 88px;
-  height: 84px;
 }
 
 .yuebing {
   background-position: -0px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .yueguangtuanzi {
   background-position: -88px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .yuezhilianren {
   background-position: -176px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .yunshanmianhuatang {
   background-position: -264px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .yuyuelongmen {
   background-position: -352px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .zachui {
   background-position: -440px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhabamuman {
   background-position: -528px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhafanqietiao {
   background-position: -616px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhangyushao {
   background-position: -704px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhaxiatianfuluo {
   background-position: -792px -1176px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhazhuroupai {
   background-position: -0px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhen·haixianweicengtang {
   background-position: -88px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhishidan {
   background-position: -176px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhizhuroufantuan {
   background-position: -264px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhizunhaixianmian {
   background-position: -352px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhudoufu {
   background-position: -440px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhuludie {
   background-position: -528px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhuquji {
   background-position: -616px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhurougaijiaofan {
   background-position: -704px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhurouzunyuxun {
   background-position: -792px -1260px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhusunchaorou {
   background-position: -0px -1344px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhutongfenzhengrou {
   background-position: -88px -1344px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhutongshaozuixia {
   background-position: -176px -1344px;
-  width: 88px;
-  height: 84px;
 }
 
 .zhutongzhengdan {
   background-position: -264px -1344px;
-  width: 88px;
-  height: 84px;
 }

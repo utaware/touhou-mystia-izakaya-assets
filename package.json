@@ -7,6 +7,7 @@
     "rename": "node js/rename-assets.js",
     "sprite": "node js/generator-sprite.js",
     "json": "node js/json-transform.js",
+    "resize": "node js/resize-image.js",
     "py-xlsx": "python py/main.py"
   },
   "keywords": [],

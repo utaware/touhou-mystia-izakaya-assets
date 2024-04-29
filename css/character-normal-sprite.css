@@ -1,286 +1,194 @@
-.character-normal {
-  background-image: url('../../sprite/character-normal-sprite.jpeg');
+.character-normal-sprite-item {
+  background-image: url('@/assets/sprite/character-normal-sprite.jpeg');
   background-repeat: no-repeat;
+  width: 89px;
+  height: 120px;
 }
 
 .bachidaren {
   background-position: -0px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .bailangtiangou {
   background-position: -89px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .baonv {
   background-position: -178px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .buliangshaonian {
   background-position: -267px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .buliangshaonv {
   background-position: -356px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .daoshi {
   background-position: -445px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .daoyaotu {
   background-position: -534px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .dijing {
   background-position: -623px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .diyuya {
   background-position: -712px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .fengmaojiang {
   background-position: -801px -0px;
-  width: 89px;
-  height: 120px;
 }
 
 .guhuoniao {
   background-position: -0px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .gui {
   background-position: -89px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .gunv {
   background-position: -178px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .hetong {
   background-position: -267px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .jiangshi {
   background-position: -356px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .linglanhuajing {
   background-position: -445px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .mangshejing {
   background-position: -534px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .meiguihuajing {
   background-position: -623px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .mizhirenxing {
   background-position: -712px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .mofashi {
   background-position: -801px -120px;
-  width: 89px;
-  height: 120px;
 }
 
 .renleichangzhe {
   background-position: -0px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .renleinanxing {
   background-position: -89px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .renleinvxing {
   background-position: -178px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .renleixiaohai {
   background-position: -267px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .senglv {
   background-position: -356px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .senzhiyaojing {
   background-position: -445px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .shanlao {
   background-position: -534px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .shantong {
   background-position: -623px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .taiyanghuajing {
   background-position: -712px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .tuzhizhu {
   background-position: -801px -240px;
-  width: 89px;
-  height: 120px;
 }
 
 .wanjubing {
   background-position: -0px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .xianren {
   background-position: -89px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .xiaochou {
   background-position: -178px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .xiaorenzu {
   background-position: -267px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .yaoguaihu {
   background-position: -356px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .yaoguaili {
   background-position: -445px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .yaoguaimao {
   background-position: -534px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .yaoguaishu {
   background-position: -623px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .yaoguaitu {
   background-position: -712px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .yaojing {
   background-position: -801px -360px;
-  width: 89px;
-  height: 120px;
 }
 
 .yatiangou {
   background-position: -0px -480px;
-  width: 89px;
-  height: 120px;
 }
 
 .yingnv {
   background-position: -89px -480px;
-  width: 89px;
-  height: 120px;
 }
 
 .yueren {
   background-position: -178px -480px;
-  width: 89px;
-  height: 120px;
 }
 
 .yuezhishizhe {
   background-position: -267px -480px;
-  width: 89px;
-  height: 120px;
 }
 
 .zhipaibing {
   background-position: -356px -480px;
-  width: 89px;
-  height: 120px;
 }
 
 .zuofutongzi {
   background-position: -445px -480px;
-  width: 89px;
-  height: 120px;
 }
 
 .zuoweimen {
   background-position: -534px -480px;
-  width: 89px;
-  height: 120px;
 }

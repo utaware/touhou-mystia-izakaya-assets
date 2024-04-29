@@ -1,6 +1,8 @@
 const fs = require('fs-extra')
 
-const { resolve, relative, sep } = require('path')
+const { resolve } = require('path')
+
+const inquirer = require('inquirer')
 
 const { imagesPath, spritePath, cssPath } = require('./config')
 
@@ -14,67 +16,84 @@ async function generatorSpriteImage({
   inputDirPath,
   outputImagePath,
   outputCssPath,
-  dirname
+  dirname,
+  ensureSpriteImage,
+  ensureSpriteCss,
 }) {
-
   const dirPath = resolve(inputDirPath, dirname)
 
   const dirImages = await getFolderImages(dirPath)
 
   const { spriteWidth, spriteHeight, spriteLayers, images } = calcSpriteInfos({
     folderImages: dirImages,
-    resolvePathFn: (filename) => resolve(dirPath, filename)
+    resolvePathFn: (filename) => resolve(dirPath, filename),
   })
 
   const spriteFilePath = resolve(outputImagePath, `${dirname}-sprite.jpeg`)
 
   const cssFilePath = resolve(outputCssPath, `${dirname}-sprite.css`)
 
-  await generatorCssSprite({
-    width: spriteWidth,
-    height: spriteHeight,
-    layers: spriteLayers,
-    dest: spriteFilePath
-  })
+  if (ensureSpriteImage) {
+    await generatorCssSprite({
+      width: spriteWidth,
+      height: spriteHeight,
+      layers: spriteLayers,
+      dest: spriteFilePath,
+    })
+  }
 
-  const spriteUrl = relative(cssFilePath, spriteFilePath).split(sep).join('/')
+  const spriteUrl = `@/assets/sprite/${dirname}-sprite.jpeg`
 
-  await generatorCssFile({
-    modulename: dirname,
-    images,
-    spriteUrl,
-    dest: cssFilePath
-  })
+  if (ensureSpriteCss) {
+    await generatorCssFile({
+      modulename: dirname,
+      images,
+      spriteUrl,
+      dest: cssFilePath,
+    })
+  }
 
   console.log(`generator ${dirname} Css sprite success`)
-
 }
 
 async function main() {
-
   const folderNames = await fs.readdir(imagesPath)
 
-  await fs.remove(spritePath)
+  const choices = ['image', 'css'].map((v) => ({ name: v, value: v }))
 
-  await fs.ensureDir(spritePath)
+  const { choice } = await inquirer.prompt({
+    type: 'checkbox',
+    name: 'choice',
+    message: 'choice rename dirname:',
+    default: null,
+    choices,
+  })
 
-  await fs.remove(cssPath)
+  const ensureSpriteImage = choice.includes('image')
+  const ensureSpriteCss = choice.includes('css')
 
-  await fs.ensureDir(cssPath)
+  if (ensureSpriteImage) {
+    await fs.remove(spritePath)
+    await fs.ensureDir(spritePath)
+  }
+
+  if (ensureSpriteCss) {
+    await fs.remove(cssPath)
+    await fs.ensureDir(cssPath)
+  }
 
   for await (let dirname of folderNames) {
-
     await generatorSpriteImage({
       inputDirPath: imagesPath,
       outputImagePath: spritePath,
       outputCssPath: cssPath,
-      dirname
+      dirname,
+      ensureSpriteImage,
+      ensureSpriteCss,
     })
-
   }
 
   console.log('generator css sprite success')
-
 }
 
 main()
