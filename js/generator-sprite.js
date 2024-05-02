@@ -1,10 +1,10 @@
 const fs = require('fs-extra')
 
-const { resolve } = require('path')
+const { resolve, dirname } = require('path')
 
 const inquirer = require('inquirer')
 
-const { imagesPath, spritePath, cssPath } = require('./config')
+const { imagesPath, spritePath, cssPath, dataPath } = require('./config')
 
 const { getFolderImages, generatorCssSprite } = require('./sprite')
 
@@ -19,10 +19,19 @@ async function generatorSpriteImage({
   dirname,
   ensureSpriteImage,
   ensureSpriteCss,
+  optionsFileName,
 }) {
+  const optionsFilePath = resolve(dataPath, optionsFileName)
+
+  const optionsFileContent = optionsFileName
+    ? await fs.readJson(optionsFilePath)
+    : []
+
+  const order = optionsFileContent.map((v) => v.namePY)
+
   const dirPath = resolve(inputDirPath, dirname)
 
-  const dirImages = await getFolderImages(dirPath)
+  const dirImages = await getFolderImages(dirPath, order)
 
   const { spriteWidth, spriteHeight, spriteLayers, images } = calcSpriteInfos({
     folderImages: dirImages,
@@ -59,6 +68,17 @@ async function generatorSpriteImage({
 async function main() {
   const folderNames = await fs.readdir(imagesPath)
 
+  const optionsFileMap = {
+    beverages: 'beverages',
+    'character-normal': 'character_normal',
+    'character-rare': 'character_rare',
+    'character-rare-rz': 'character_rare',
+    ingredients: 'ingredients',
+    'ingredients-rz': 'ingredients',
+    recipes: 'recipes',
+    'recipes-rz': 'recipes',
+  }
+
   const choices = ['image', 'css'].map((v) => ({ name: v, value: v }))
 
   const { choice } = await inquirer.prompt({
@@ -83,11 +103,15 @@ async function main() {
   }
 
   for await (let dirname of folderNames) {
+    const optionsFileName = Reflect.has(optionsFileMap, dirname)
+      ? optionsFileMap[dirname] + '.json'
+      : ''
     await generatorSpriteImage({
       inputDirPath: imagesPath,
       outputImagePath: spritePath,
       outputCssPath: cssPath,
       dirname,
+      optionsFileName,
       ensureSpriteImage,
       ensureSpriteCss,
     })
