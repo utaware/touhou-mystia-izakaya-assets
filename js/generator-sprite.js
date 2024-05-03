@@ -1,6 +1,6 @@
 const fs = require('fs-extra')
 
-const { resolve, dirname } = require('path')
+const { resolve } = require('path')
 
 const inquirer = require('inquirer')
 
@@ -38,7 +38,7 @@ async function generatorSpriteImage({
     resolvePathFn: (filename) => resolve(dirPath, filename),
   })
 
-  const spriteFilePath = resolve(outputImagePath, `${dirname}-sprite.jpeg`)
+  const spriteFilePath = resolve(outputImagePath, `${dirname}-sprite`)
 
   const cssFilePath = resolve(outputCssPath, `${dirname}-sprite.css`)
 
@@ -51,7 +51,7 @@ async function generatorSpriteImage({
     })
   }
 
-  const spriteUrl = `@/assets/sprite/${dirname}-sprite.jpeg`
+  const spriteUrl = `@/assets/sprite/${dirname}-sprite.png`
 
   if (ensureSpriteCss) {
     await generatorCssFile({

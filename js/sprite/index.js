@@ -34,17 +34,18 @@ exports.generatorCssSprite = function ({
   width,
   height,
   layers,
-  dest = 'sprite.jpeg'
+  dest = 'sprite',
+  ext = 'jpeg',
 }) {
-
   return sharp({
     create: {
       width,
       height,
       channels: 4,
-      background: { r: 255, g: 255, b: 255, alpha: 0 }
-    }
+      background: { r: 255, g: 255, b: 255, alpha: 0 },
+    },
   })
+    [ext]()
     .composite(layers)
-    .toFile(dest)
+    .toFile(dest + '.' + ext)
 }
