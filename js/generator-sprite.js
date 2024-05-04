@@ -20,6 +20,7 @@ async function generatorSpriteImage({
   ensureSpriteImage,
   ensureSpriteCss,
   optionsFileName,
+  ext,
 }) {
   const optionsFilePath = resolve(dataPath, optionsFileName)
 
@@ -48,6 +49,7 @@ async function generatorSpriteImage({
       height: spriteHeight,
       layers: spriteLayers,
       dest: spriteFilePath,
+      ext,
     })
   }
 
@@ -79,18 +81,33 @@ async function main() {
     'recipes-rz': 'recipes',
   }
 
-  const choices = ['image', 'css'].map((v) => ({ name: v, value: v }))
+  const functionChoices = ['image', 'css'].map((v) => ({ name: v, value: v }))
 
-  const { choice } = await inquirer.prompt({
+  const { funcChoice } = await inquirer.prompt({
     type: 'checkbox',
-    name: 'choice',
-    message: 'choice rename dirname:',
-    default: null,
-    choices,
+    name: 'funcChoice',
+    message: 'select function for script',
+    default: ['image'],
+    choices: functionChoices,
   })
 
-  const ensureSpriteImage = choice.includes('image')
-  const ensureSpriteCss = choice.includes('css')
+  const extChoices = ['jpeg', 'jp2', 'png', 'gif', 'webp', 'avif'].map((v) => ({
+    name: v,
+    value: v,
+  }))
+
+  const { extChoice } = await inquirer.prompt({
+    type: 'list',
+    name: 'extChoice',
+    message: 'select generator sprite-image type',
+    default: 'jpeg',
+    choices: extChoices,
+  })
+
+  console.log(funcChoice, extChoice)
+
+  const ensureSpriteImage = funcChoice.includes('image')
+  const ensureSpriteCss = funcChoice.includes('css')
 
   if (ensureSpriteImage) {
     await fs.remove(spritePath)
@@ -114,6 +131,7 @@ async function main() {
       optionsFileName,
       ensureSpriteImage,
       ensureSpriteCss,
+      ext: extChoice,
     })
   }
 
