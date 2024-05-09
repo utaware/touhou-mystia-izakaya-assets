@@ -72,6 +72,7 @@ async function main() {
 
   const optionsFileMap = {
     beverages: 'beverages',
+    'beverages-rz': 'beverages',
     'character-normal': 'character_normal',
     'character-rare': 'character_rare',
     'character-rare-rz': 'character_rare',
