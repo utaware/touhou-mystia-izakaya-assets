@@ -7,14 +7,10 @@ const [
   cssPath,
   jsonPath,
   dataPath,
-] = [
-  'assets',
-  'images',
-  'sprite',
-  'css',
-  'json',
-  'data',
-].map(v => resolve(__dirname, '../../', v))
+  webpPath,
+] = ['assets', 'images', 'sprite', 'css', 'json', 'data', 'webp'].map((v) =>
+  resolve(__dirname, '../../', v)
+)
 
 module.exports = {
   assetsPath,
@@ -22,5 +18,6 @@ module.exports = {
   spritePath,
   cssPath,
   jsonPath,
-  dataPath
+  dataPath,
+  webpPath,
 }

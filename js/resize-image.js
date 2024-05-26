@@ -1,20 +1,26 @@
 const fs = require('fs-extra')
 
-const { resolve } = require('path')
+const { resolve, parse } = require('path')
 
 const sharp = require('sharp')
 
-const { assetsPath } = require('./config')
+const { assetsPath, webpPath } = require('./config')
 
-const imagesName = '晓.jpeg'
+const dirname = 'beverages-rz'
 
-const moduleName = 'beverages'
-
-const filePath = resolve(assetsPath, moduleName, imagesName)
+const dirPath = resolve(assetsPath, dirname)
 
 async function main() {
-  await sharp(filePath).resize(84, 84).toFile(`./${imagesName}`)
-  console.log('resize success')
+  const folderImages = await fs.readdir(dirPath)
+  await fs.remove(webpPath)
+  await fs.ensureDir(webpPath)
+  for await (let filename of folderImages) {
+    const filePath = resolve(dirPath, filename)
+    const { name } = parse(filename)
+    const dest = resolve(webpPath, name + '.png')
+    await sharp(filePath).png({ quality: 100 }).toFile(dest)
+  }
+  console.log('complete')
 }
 
 main()
